@@ -1,0 +1,2 @@
+exec X :0 -multiwindow -multimonitors -resize=randr -notrayicon -keyhook -unixkill -nowinkill -compositewm
+

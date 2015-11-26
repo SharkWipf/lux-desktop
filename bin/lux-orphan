@@ -1,0 +1,18 @@
+#!/bin/bash
+
+orphans_tmp=$(mktemp /tmp/lx.XXXXXX)
+function lx_orph() {
+    echo 0
+    lx -t > $orphans_tmp
+    echo 100
+}
+
+lx_orph | yad --progress --pulsate --auto-close --text=" Finding orphan packages..." --title='Please wait...' --width=300 --center --window-icon=accessories-system-cleaner
+
+EXTRA="$(yad --list --multiple --checklist --title='Select packages to remove' --separator=, --no-headers --width=400 --height=400 --column='' --column='' --print-column=2 --center --window-icon=accessories-system-cleaner $(awk '{print "FALSE "$0}' $orphans_tmp) | paste -sd '' )"
+rm $orphans_tmp
+
+if [ -n "$EXTRA" ]; then
+    lx -R $EXTRA
+fi
+

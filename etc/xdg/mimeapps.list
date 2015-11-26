@@ -1,0 +1,14 @@
+[Default Applications]
+application/oxps=windows.desktop
+application/vnd.openxmlformats-officedocument.presentationml.presentation=windows.desktop
+application/vnd.openxmlformats-officedocument.presentationml.slide=windows.desktop
+application/vnd.openxmlformats-officedocument.presentationml.slideshow=windows.desktop
+application/vnd.openxmlformats-officedocument.presentationml.template=windows.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=windows.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.template=windows.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=windows.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.template=windows.desktop
+text/x-ms-regedit=windows.desktop
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+x-scheme-handler/mailto=exo-mail-reader.desktop

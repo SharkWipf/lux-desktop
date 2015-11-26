@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Seahorse passphrase caching agent
+Exec=/usr/bin/seahorse-daemon
+Icon=seahorse
+OnlyShowIn=XFCE;

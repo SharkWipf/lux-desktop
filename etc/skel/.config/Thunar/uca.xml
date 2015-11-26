@@ -1,0 +1,38 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>xterm-color</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1442281432784041-2</unique-id>
+	<command>xfce4-terminal -x /bin/exo-bash %f</command>
+	<description>Xfce Terminal emulator</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>xterm-color</icon>
+	<name>Open Command Prompt Here</name>
+	<unique-id>1442281116744808-4</unique-id>
+    <command>/bin/windows cmd /K cd "$(cygpath -w %f)"</command>
+	<description>Microsoft Windows cmd.exe</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>wine</icon>
+	<name>Open with Microsoft Windows</name>
+	<unique-id>1442606331661533-1</unique-id>
+	<command>/bin/windows %F</command>
+	<description>Use Microsoft Windows filetype association</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>

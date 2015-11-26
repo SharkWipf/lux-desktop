@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Xfce</Name>
+	<MergeFile type="parent">/etc/xdg/menus/xfce-applications.menu</MergeFile>
+	<Menu>
+		<Name>Accessories</Name>
+		<Exclude>
+			<Filename>Thunar.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Exclude>
+			<Filename>yad-icon-browser.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Exclude>
+			<Filename>Thunar-bulk-rename.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>uxterm.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>xterm.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>xfce4-terminal.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>Thunar.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Settings</Name>
+		<Exclude>
+			<Filename>xfce-display-settings.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>deneb-setup.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>deneb-update.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>deneb-clean-cache.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>deneb-orphan.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Exclude>
+		<Filename>exo-mail-reader.desktop</Filename>
+	</Exclude>
+</Menu>

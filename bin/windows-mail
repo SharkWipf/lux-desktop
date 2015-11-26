@@ -1,0 +1,5 @@
+#!/bin/bash
+P=$@
+echo $P | grep "mailto:" > /dev/null || P="mailto:$P"
+windows $P
+

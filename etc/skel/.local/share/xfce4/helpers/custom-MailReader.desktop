@@ -1,0 +1,11 @@
+[Desktop Entry]
+NoDisplay=true
+Version=1.0
+Encoding=UTF-8
+Type=X-XFCE-Helper
+X-XFCE-Category=MailReader
+X-XFCE-CommandsWithParameter=windows-mail "%s"
+Icon=wine
+Name=windows-mail
+X-XFCE-Commands=windows-mail
+

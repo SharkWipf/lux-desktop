@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Microsoft Windows
+Comment=Open according to Windows filetype associations
+TryExec=windows
+Exec=windows %f
+Icon=wine
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+MimeType=application/msword;application/pdf;application/vnd.ms-access;application/vnd.ms-asf;application/vnd.ms-excel;application/vnd.ms-excel.addin.macroenabled.12;application/vnd.ms-excel.sheet.binary.macroenabled.12;application/vnd.ms-excel.sheet.macroenabled.12;application/vnd.ms-excel.template.macroenabled.12;application/vnd.ms-htmlhelp;application/vnd.ms-powerpoint;application/vnd.ms-powerpoint.addin.macroenabled.12;application/vnd.ms-powerpoint.presentation.macroenabled.12;application/vnd.ms-powerpoint.slide.macroenabled.12;application/vnd.ms-powerpoint.slideshow.macroenabled.12;application/vnd.ms-powerpoint.template.macroenabled.12;application/vnd.ms-publisher;application/vnd.ms-tnef;application/vnd.ms-word.document.macroenabled.12;application/vnd.ms-word.template.macroenabled.12;application/vnd.ms-works;application/vnd.ms-wpl;application/x-ms-dos-executable;application/x-ms-wim;application/x-msi;application/x-mswinurl;application/x-mswrite;video/x-msvideo;text/x-ms-regedit;image/vnd.ms-modi;image/x-msod;audio/x-ms-asx;application/winhlp;image/x-win-bitmap;x-content/win32-software;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.slide;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.wordprocessingml.template;image/vnd.microsoft.icon;application/vnd.visio;application/vnd.wordperfect

@@ -1,0 +1,7 @@
+#!/bin/bash
+U="$@"
+if [ -z "$U" ];then
+    U="http://"
+fi
+windows "$U"
+

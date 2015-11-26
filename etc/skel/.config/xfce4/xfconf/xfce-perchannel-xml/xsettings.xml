@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xsettings" version="1.0">
+  <property name="Net" type="empty">
+    <property name="ThemeName" type="string" value="Radiance-Flat-Blue-Spring"/>
+    <property name="IconThemeName" type="string" value="Vibrancy-Colors-NonMono-Light"/>
+    <property name="DoubleClickTime" type="int" value="500"/>
+    <property name="DoubleClickDistance" type="empty"/>
+    <property name="DndDragThreshold" type="empty"/>
+    <property name="CursorBlink" type="empty"/>
+    <property name="CursorBlinkTime" type="empty"/>
+    <property name="SoundThemeName" type="string" value="fresh-clean"/>
+    <property name="EnableEventSounds" type="bool" value="true"/>
+    <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
+  </property>
+  <property name="Xft" type="empty">
+    <property name="DPI" type="empty"/>
+    <property name="Antialias" type="int" value="1"/>
+    <property name="Hinting" type="empty"/>
+    <property name="HintStyle" type="string" value="hintslight"/>
+    <property name="RGBA" type="string" value="rgb"/>
+  </property>
+  <property name="Gtk" type="empty">
+    <property name="CanChangeAccels" type="bool" value="true"/>
+    <property name="ColorPalette" type="empty"/>
+    <property name="FontName" type="string" value="DejaVu Sans 10"/>
+    <property name="IconSizes" type="string" value="gtk-menu=24,24:gtk-button=19,19:panel-applications-menu=24,24:panel-directory-menu=24,24"/>
+    <property name="KeyThemeName" type="empty"/>
+    <property name="ToolbarStyle" type="empty"/>
+    <property name="ToolbarIconSize" type="empty"/>
+    <property name="MenuImages" type="empty"/>
+    <property name="ButtonImages" type="empty"/>
+    <property name="MenuBarAccel" type="empty"/>
+    <property name="CursorThemeName" type="empty"/>
+    <property name="CursorThemeSize" type="empty"/>
+  </property>
+</channel>
