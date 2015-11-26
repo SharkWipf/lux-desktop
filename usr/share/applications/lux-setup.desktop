@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=lx -M
+Exec=lux -M
 Icon=software-center
 StartupNotify=true
 Terminal=false

@@ -28,7 +28,7 @@ SectionEnd
 
 Function DoSetup
   # download directory
-  StrCpy $2 "$INSTDIR\var\cache\lx"
+  StrCpy $2 "$INSTDIR\var\cache\lux"
   CreateDirectory $2
   # executable filename (downloaded)
   StrCpy $0 "$2\setup-x86_64.exe"

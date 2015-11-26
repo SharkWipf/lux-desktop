@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=lx -c
+Exec=lux -c
 Icon=accessories-system-cleaner
 StartupNotify=true
 Terminal=false
