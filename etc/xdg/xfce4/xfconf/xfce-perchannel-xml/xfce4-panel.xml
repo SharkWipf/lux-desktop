@@ -22,6 +22,7 @@
      <property name="show-button-title" type="bool" value="false"/>
      <property name="show-generic-names" type="bool" value="true"/>
      <property name="show-tooltips" type="bool" value="true"/>
+     <property name="button-icon" type="string" value="xfce4-session"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="show-frame" type="bool" value="false"/>
