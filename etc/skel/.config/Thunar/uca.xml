@@ -3,8 +3,8 @@
 <action>
 	<icon>xterm-color</icon>
 	<name>Open Terminal Here</name>
-	<unique-id>1442281432784041-2</unique-id>
-	<command>xfce4-terminal -x /bin/exo-bash %f</command>
+	<unique-id>1448574952005744-3</unique-id>
+	<command>exo-open.exe --launch TerminalEmulator --working-directory %f</command>
 	<description>Xfce Terminal emulator</description>
 	<patterns>*</patterns>
 	<startup-notify/>
@@ -14,8 +14,8 @@
 	<icon>xterm-color</icon>
 	<name>Open Command Prompt Here</name>
 	<unique-id>1442281116744808-4</unique-id>
-    <command>/bin/windows cmd /K cd "$(cygpath -w %f)"</command>
-	<description>Microsoft Windows cmd.exe</description>
+	<command>/bin/exo-start cmd /K cd &quot;$(cygpath -w %f)&quot;</command>
+	<description>Microsoft exo-start cmd.exe</description>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
@@ -24,7 +24,7 @@
 	<icon>wine</icon>
 	<name>Open with Microsoft Windows</name>
 	<unique-id>1442606331661533-1</unique-id>
-	<command>/bin/windows %F</command>
+	<command>/bin/exo-start %F</command>
 	<description>Use Microsoft Windows filetype association</description>
 	<patterns>*</patterns>
 	<startup-notify/>

@@ -41,19 +41,13 @@
 			<Filename>xfce-display-settings.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>deneb-setup.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>deneb-update.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>deneb-clean-cache.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>deneb-orphan.desktop</Filename>
+			<Filename>lux-update.desktop</Filename>
 		</Exclude>
 	</Menu>
 	<Exclude>
 		<Filename>exo-mail-reader.desktop</Filename>
+	</Exclude>
+	<Exclude>
+		<Filename>xfce4-about.desktop</Filename>
 	</Exclude>
 </Menu>
