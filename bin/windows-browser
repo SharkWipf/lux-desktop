@@ -3,5 +3,5 @@ U="$@"
 if [ -z "$U" ];then
     U="http://"
 fi
-windows "$U"
+exo-start "$U"
 

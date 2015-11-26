@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd "$1"
-# prevents cd to $HOME
-export CHERE_INVOKING=true
-exec bash -l -i

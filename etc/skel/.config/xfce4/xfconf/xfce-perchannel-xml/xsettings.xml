@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Radiance-Flat-Blue-Spring"/>
-    <property name="IconThemeName" type="string" value="Vibrancy-Colors-NonMono-Light"/>
+    <property name="IconThemeName" type="string" value="Vibrancy-NonMono-Light-Yellow"/>
     <property name="DoubleClickTime" type="int" value="500"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -33,5 +33,6 @@
     <property name="MenuBarAccel" type="empty"/>
     <property name="CursorThemeName" type="empty"/>
     <property name="CursorThemeSize" type="empty"/>
+    <property name="DecorationLayout" type="empty"/>
   </property>
 </channel>
