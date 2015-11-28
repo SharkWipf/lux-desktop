@@ -1,9 +1,6 @@
 #!/bin/bash
 
-[ -n "$SKEL_FINISHED" ] && return
-
-# bind user profile directory
-[ ! -e "$HOME/.userprofile" ] && mount -fo user "$USERPROFILE" ~/.userprofile
+[ -n "$MOUNT_FINISHED" ] && return
 
 # bind cygdrive to /media
 for sd in `ls /cygdrive/`; do
@@ -24,4 +21,5 @@ for d in DESKTOP DOCUMENTS DOWNLOAD MUSIC PICTURES PUBLICSHARE TEMPLATES VIDEOS;
 	fi
 done
 
+MOUNT_FINISHED=1
 
