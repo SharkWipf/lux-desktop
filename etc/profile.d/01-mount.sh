@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -n "$MOUNT_FINISHED" ] && return
+[ -z "$MOUNT_FINISHED" ] && [ "$SHLVL" = "1" ] || return
 
 # bind windows user-dirs to home folder
 if which xdg-user-dirs-update >/dev/null 2>&1; then
