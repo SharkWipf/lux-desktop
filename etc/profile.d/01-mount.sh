@@ -2,13 +2,6 @@
 
 [ -n "$MOUNT_FINISHED" ] && return
 
-# bind cygdrive to /media
-for sd in `ls /cygdrive/`; do
-	if [ ! -e "/media/$sd" ]; then
-		mount -f "$(cygpath -w /cygdrive/$sd)" /media/$sd
-	fi
-done
-
 # bind windows user-dirs to home folder
 if which xdg-user-dirs-update >/dev/null 2>&1; then
     xdg-user-dirs-update --force
@@ -22,4 +15,3 @@ for d in DESKTOP DOCUMENTS DOWNLOAD MUSIC PICTURES PUBLICSHARE TEMPLATES VIDEOS;
 done
 
 MOUNT_FINISHED=1
-keep_env MOUNT_FINISHED
