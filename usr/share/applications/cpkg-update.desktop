@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=lux -u
+Exec=cpkg -u
 Icon=system-software-update
 StartupNotify=true
 Terminal=false
