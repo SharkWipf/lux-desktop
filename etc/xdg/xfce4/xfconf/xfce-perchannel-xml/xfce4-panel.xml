@@ -13,6 +13,7 @@
         <value type="int" value="1"/>
         <value type="int" value="9"/>
         <value type="int" value="14"/>
+        <value type="int" value="2"/>
         <value type="int" value="6"/>
       </property>
     </property>
@@ -36,5 +37,10 @@
     <property name="plugin-14" type="string" value="directorymenu">
       <property name="icon-name" type="string" value="user-home"/>
     </property>
-  </property>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="exo-web-browser.desktop"/>
+      </property>
+    </property>
+   </property>
 </channel>
