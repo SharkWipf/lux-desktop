@@ -13,9 +13,9 @@
 <action>
 	<icon>xterm-color</icon>
 	<name>Open Command Prompt Here</name>
-	<unique-id>1442281116744808-4</unique-id>
+	<unique-id>1453474991536905-1</unique-id>
 	<command>/bin/exo-start cmd /K cd &quot;$(cygpath -w %f)&quot;</command>
-	<description>Microsoft exo-start cmd.exe</description>
+	<description>Microsoft cmd.exe</description>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
@@ -34,5 +34,37 @@
 	<other-files/>
 	<text-files/>
 	<video-files/>
+</action>
+<action>
+	<icon>archive-insert</icon>
+	<name>Create Archive...</name>
+	<unique-id>1453476135333134-7</unique-id>
+	<command>/usr/bin/engrampa.exe --default-dir=%d -d %F</command>
+	<description>Create an archive using Engrampa</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>archive-extract</icon>
+	<name>Extract To...</name>
+	<unique-id>1453476003096995-6</unique-id>
+	<command>/usr/bin/engrampa.exe -f %F</command>
+	<description>Extract archives to destination folder</description>
+	<patterns>*.7z;*.ar;*.ark;*.jar;*.exe;*.tar;*.bz2;*.bz;*.tbz;*.tbz2;*.Z;*.taz;*.gz;*.tgz;*.lrz;*.lz;*.tlz;*.lzma;*.tzma;*.lzo;*.tzo;*.xz;*.txz;*.zip;*.cbz;*.zoo</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>archive-extract</icon>
+	<name>Extract Here</name>
+	<unique-id>1453475750734313-4</unique-id>
+	<command>/usr/bin/engrampa.exe -h %F</command>
+	<description>Extract the contents of the archive in the archive folder</description>
+	<patterns>*.7z;*.ar;*.ark;*.jar;*.exe;*.tar;*.bz2;*.bz;*.tbz;*.tbz2;*.Z;*.taz;*.gz;*.tgz;*.lrz;*.lz;*.tlz;*.lzma;*.tzma;*.lzo;*.tzo;*.xz;*.txz;*.zip;*.cbz;*.zoo</patterns>
+	<other-files/>
 </action>
 </actions>
