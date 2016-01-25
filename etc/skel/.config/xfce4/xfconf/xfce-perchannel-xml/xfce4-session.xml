@@ -35,8 +35,8 @@
       <property name="cygsimple" type="empty">
         <property name="Font" type="string" value="DejaVu Sans 10"/>
         <property name="BgColor" type="string" value="#ededed"/>
-        <property name="FgColor" type="string" value="#267ba5"/>
-        <property name="Image" type="string" value="/usr/share/icons/Vibrancy-Colors/apps/256/xfce4-session.png"/>
+        <property name="FgColor" type="string" value="#3e3e3e"/>
+        <property name="Image" type="string" value="/usr/share/icons/Vibrancy-Colors/apps/256/bootloader.png"/>
       </property>
     </property>
   </property>
