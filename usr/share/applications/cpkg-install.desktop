@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=cpkg -uM
+Icon=system-software-install
+StartupNotify=true
+Terminal=false
+Categories=XFCE;GTK;Settings;System;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+OnlyShowIn=XFCE;
+Name=Software Install
+Comment=Install packages
+
