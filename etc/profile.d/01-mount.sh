@@ -2,6 +2,14 @@
 
 [ -z "$MOUNT_FINISHED" ] && [ "$SHLVL" = "1" ] || return
 
+if [ ! -e "/usr/share/fonts/winsys" ]; then
+    winsys="$(cygpath "${SYSTEMROOT}/Fonts")"
+    if [ -e "$winsys" ]; then
+        mount -fo user $(cygpath -w $winsys) /usr/share/fonts/winsys
+        fc-cache -s
+    fi
+fi
+
 # bind windows user-dirs to home folder
 if [ ! -e "$HOME/.config/user-dirs.dirs" ]; then
     if which xdg-user-dirs-update >/dev/null 2>&1; then
