@@ -1,6 +1,6 @@
 [Configuration]
 Term=gnome-256color
-FontName=DejaVu Sans Mono 13
+FontName=Consolas 14
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
 MiscCursorBlinks=TRUE
 MiscAlwaysShowTabs=FALSE
