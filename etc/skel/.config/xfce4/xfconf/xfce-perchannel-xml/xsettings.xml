@@ -23,7 +23,7 @@
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="bool" value="true"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="Segoe UI 11"/>
+    <property name="FontName" type="string" value="DejaVu Sans 10"/>
     <property name="IconSizes" type="string" value="gtk-menu=24,24:gtk-button=19,19:panel-applications-menu=24,24:panel-directory-menu=24,24"/>
     <property name="KeyThemeName" type="empty"/>
     <property name="ToolbarStyle" type="empty"/>
