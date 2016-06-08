@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -z "$MOUNT_FINISHED" ] && [ "$SHLVL" = "1" ] || return
+[ -z "$MOUNT_FINISHED" ] || return
 
 # bind windows user-dirs to home folder
 if [ ! -e "$HOME/.config/user-dirs.dirs" ]; then
@@ -18,4 +18,4 @@ for d in DESKTOP DOCUMENTS DOWNLOAD MUSIC PICTURES PUBLICSHARE TEMPLATES VIDEOS;
 	fi
 done
 
-MOUNT_FINISHED=1
+export MOUNT_FINISHED=1
