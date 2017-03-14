@@ -1,4 +1,6 @@
-set wShell=wscript.createobject("wscript.shell")
-wShell.sendkeys "^{ESC}"
-Set WshShell = Nothing
+Set WSHShell = WScript.CreateObject("WScript.Shell")
 
+WshShell.AppActivate("Program Manager")
+WshShell.SendKeys "^{ESC}"
+
+Set WSHShell = Nothing
